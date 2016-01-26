@@ -22,6 +22,7 @@
 		4EB0D8C81C57A52700398C35 /* tavarua_fiji.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EB0D8C21C57A52700398C35 /* tavarua_fiji.jpg */; };
 		4EB0D8C91C57A52700398C35 /* theMaldives.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EB0D8C31C57A52700398C35 /* theMaldives.jpg */; };
 		4EB0D8CC1C57B2D600398C35 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0D8CB1C57B2D600398C35 /* DetailViewController.m */; };
+		4EE6C0671C57E9AC0019A285 /* lauchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6C0661C57E9AC0019A285 /* lauchScreen.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		4EB0D8C31C57A52700398C35 /* theMaldives.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theMaldives.jpg; sourceTree = "<group>"; };
 		4EB0D8CA1C57B2D600398C35 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4EB0D8CB1C57B2D600398C35 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4EE6C0661C57E9AC0019A285 /* lauchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lauchScreen.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 		4EB0D8BD1C57A52700398C35 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				4EE6C0661C57E9AC0019A285 /* lauchScreen.jpg */,
 				4EB0D8BE1C57A52700398C35 /* BoraBoraThaiti.jpg */,
 				4EB0D8C01C57A52700398C35 /* laDigue.jpg */,
 				4EB0D8C11C57A52700398C35 /* Malibu.jpg */,
@@ -279,6 +282,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE6C0671C57E9AC0019A285 /* lauchScreen.jpg in Resources */,
 				4EB0D8C41C57A52700398C35 /* BoraBoraThaiti.jpg in Resources */,
 				4EB0D8941C579FFD00398C35 /* LaunchScreen.storyboard in Resources */,
 				4EB0D8C61C57A52700398C35 /* laDigue.jpg in Resources */,
@@ -541,6 +545,7 @@
 				4EB0D8B01C579FFD00398C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB0D8B11C579FFD00398C35 /* Build configuration list for PBXNativeTarget "tableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +554,7 @@
 				4EB0D8B31C579FFD00398C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EB0D8B41C579FFD00398C35 /* Build configuration list for PBXNativeTarget "tableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +563,7 @@
 				4EB0D8B61C579FFD00398C35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

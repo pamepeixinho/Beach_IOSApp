@@ -25,6 +25,11 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     
+    UIBarButtonItem *backButton = [[UIBarButtonItem alloc] initWithTitle:@"" style:UIBarButtonItemStylePlain target:nil action:nil];
+    [self.navigationItem setBackBarButtonItem:backButton];
+    
+    self.tableView.separatorColor = [UIColor colorWithRed:0/255.0 green:(102/255.0) blue:207/255.0 alpha:0.25];
+    
     title = @[@"Bora Bora",
               @"La Digue",
               @"Malibu",

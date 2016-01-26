@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,13 +17,62 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7fd-lI-fjQ">
+                                <rect key="frame" x="300" y="300" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lauchScreen.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="jxB-aQ-hSP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <visualEffectView opaque="NO" clipsSubviews="YES" alpha="0.59999999999999998" contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="PHW-eY-Kbz">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="7kv-gT-zP4">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Beach App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TXH-Bg-ptX">
+                                            <rect key="frame" x="182" y="50" width="237" height="89"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="TXH-Bg-ptX" secondAttribute="height" multiplier="237:89" id="clF-wi-yOE"/>
+                                                <constraint firstAttribute="width" constant="237" id="vXU-7v-9Z4"/>
+                                                <constraint firstAttribute="height" constant="89" id="yOj-5l-CCj"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="TXH-Bg-ptX" firstAttribute="centerX" secondItem="7kv-gT-zP4" secondAttribute="centerX" id="aoT-Yj-pdD"/>
+                                        <constraint firstItem="TXH-Bg-ptX" firstAttribute="top" secondItem="7kv-gT-zP4" secondAttribute="top" constant="50" id="nc6-um-5A6"/>
+                                    </constraints>
+                                </view>
+                                <color key="backgroundColor" red="0.80000001190000003" green="0.80000001190000003" blue="0.80000001190000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <blurEffect style="dark"/>
+                            </visualEffectView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jxB-aQ-hSP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5Op-y8-wFv"/>
+                            <constraint firstItem="PHW-eY-Kbz" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="7Rw-n8-LsV"/>
+                            <constraint firstItem="PHW-eY-Kbz" firstAttribute="leading" secondItem="jxB-aQ-hSP" secondAttribute="leading" id="9tY-oz-qeQ"/>
+                            <constraint firstItem="jxB-aQ-hSP" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="GIc-bj-pjO"/>
+                            <constraint firstItem="jxB-aQ-hSP" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="HH5-id-GAE"/>
+                            <constraint firstItem="PHW-eY-Kbz" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="Ht5-ek-hZd"/>
+                            <constraint firstItem="jxB-aQ-hSP" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="QYJ-Xd-Zhg"/>
+                            <constraint firstItem="PHW-eY-Kbz" firstAttribute="top" secondItem="jxB-aQ-hSP" secondAttribute="top" id="vzK-NI-vWc"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="420" y="357"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lauchScreen.jpg" width="4000" height="2250"/>
+    </resources>
 </document>
