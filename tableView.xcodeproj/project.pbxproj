@@ -23,6 +23,10 @@
 		4EB0D8C91C57A52700398C35 /* theMaldives.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EB0D8C31C57A52700398C35 /* theMaldives.jpg */; };
 		4EB0D8CC1C57B2D600398C35 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EB0D8CB1C57B2D600398C35 /* DetailViewController.m */; };
 		4EE6C0671C57E9AC0019A285 /* lauchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6C0661C57E9AC0019A285 /* lauchScreen.jpg */; };
+		4EE6C0701C580CB20019A285 /* TableViewHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EE6C06F1C580CB20019A285 /* TableViewHeader.m */; };
+		4EE6C07A1C58122A0019A285 /* lauchScreen_header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6C0771C58122A0019A285 /* lauchScreen_header.jpg */; };
+		4EE6C07B1C58122A0019A285 /* lauchScreen_header@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6C0781C58122A0019A285 /* lauchScreen_header@2x.jpg */; };
+		4EE6C07C1C58122A0019A285 /* lauchScreen_header@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4EE6C0791C58122A0019A285 /* lauchScreen_header@3x.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,11 @@
 		4EB0D8CA1C57B2D600398C35 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		4EB0D8CB1C57B2D600398C35 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		4EE6C0661C57E9AC0019A285 /* lauchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lauchScreen.jpg; sourceTree = "<group>"; };
+		4EE6C06E1C580CB20019A285 /* TableViewHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewHeader.h; sourceTree = "<group>"; };
+		4EE6C06F1C580CB20019A285 /* TableViewHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewHeader.m; sourceTree = "<group>"; };
+		4EE6C0771C58122A0019A285 /* lauchScreen_header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lauchScreen_header.jpg; sourceTree = "<group>"; };
+		4EE6C0781C58122A0019A285 /* lauchScreen_header@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lauchScreen_header@2x.jpg"; sourceTree = "<group>"; };
+		4EE6C0791C58122A0019A285 /* lauchScreen_header@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lauchScreen_header@3x.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +136,8 @@
 				4EB0D8BB1C57A37400398C35 /* TableViewCell.m */,
 				4EB0D8CA1C57B2D600398C35 /* DetailViewController.h */,
 				4EB0D8CB1C57B2D600398C35 /* DetailViewController.m */,
+				4EE6C06E1C580CB20019A285 /* TableViewHeader.h */,
+				4EE6C06F1C580CB20019A285 /* TableViewHeader.m */,
 				4EB0D88D1C579FFD00398C35 /* Main.storyboard */,
 				4EB0D8901C579FFD00398C35 /* Assets.xcassets */,
 				4EB0D8921C579FFD00398C35 /* LaunchScreen.storyboard */,
@@ -166,6 +177,9 @@
 		4EB0D8BD1C57A52700398C35 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				4EE6C0771C58122A0019A285 /* lauchScreen_header.jpg */,
+				4EE6C0781C58122A0019A285 /* lauchScreen_header@2x.jpg */,
+				4EE6C0791C58122A0019A285 /* lauchScreen_header@3x.jpg */,
 				4EE6C0661C57E9AC0019A285 /* lauchScreen.jpg */,
 				4EB0D8BE1C57A52700398C35 /* BoraBoraThaiti.jpg */,
 				4EB0D8C01C57A52700398C35 /* laDigue.jpg */,
@@ -282,12 +296,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EE6C07C1C58122A0019A285 /* lauchScreen_header@3x.jpg in Resources */,
 				4EE6C0671C57E9AC0019A285 /* lauchScreen.jpg in Resources */,
 				4EB0D8C41C57A52700398C35 /* BoraBoraThaiti.jpg in Resources */,
 				4EB0D8941C579FFD00398C35 /* LaunchScreen.storyboard in Resources */,
 				4EB0D8C61C57A52700398C35 /* laDigue.jpg in Resources */,
 				4EB0D8C91C57A52700398C35 /* theMaldives.jpg in Resources */,
+				4EE6C07B1C58122A0019A285 /* lauchScreen_header@2x.jpg in Resources */,
 				4EB0D8C81C57A52700398C35 /* tavarua_fiji.jpg in Resources */,
+				4EE6C07A1C58122A0019A285 /* lauchScreen_header.jpg in Resources */,
 				4EB0D8C71C57A52700398C35 /* Malibu.jpg in Resources */,
 				4EB0D8911C579FFD00398C35 /* Assets.xcassets in Resources */,
 				4EB0D88F1C579FFD00398C35 /* Main.storyboard in Resources */,
@@ -317,6 +334,7 @@
 			files = (
 				4EB0D8CC1C57B2D600398C35 /* DetailViewController.m in Sources */,
 				4EB0D8891C579FFD00398C35 /* AppDelegate.m in Sources */,
+				4EE6C0701C580CB20019A285 /* TableViewHeader.m in Sources */,
 				4EB0D8BC1C57A37400398C35 /* TableViewCell.m in Sources */,
 				4EB0D8B91C57A31100398C35 /* TableViewController.m in Sources */,
 				4EB0D8861C579FFD00398C35 /* main.m in Sources */,

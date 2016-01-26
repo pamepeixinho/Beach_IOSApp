@@ -9,6 +9,7 @@
 #import "TableViewController.h"
 #import "TableViewCell.h"
 #import "DetailViewController.h"
+#import "TableViewHeader.h"
 
 @interface TableViewController ()
 
@@ -29,6 +30,8 @@
     [self.navigationItem setBackBarButtonItem:backButton];
     
     self.tableView.separatorColor = [UIColor colorWithRed:0/255.0 green:(102/255.0) blue:207/255.0 alpha:0.25];
+    
+    self.tableView.tableHeaderView = [[TableViewHeader alloc] initWithText:@""];
     
     title = @[@"Bora Bora",
               @"La Digue",
